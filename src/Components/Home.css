@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+.navbar{
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.6);
+}
+.list-group{
+    width:100%;
+    /* box-shadow: 2px 2px 3px 2px; */
+    margin-right:1%;
+    text-decoration: none;
+    margin-top: 0%;
+}
+.list-group :hover{
+    color:black;
+    background: rgb(240, 233, 233);
+}
+.list-group li{
+    padding-top:0%; 
+    margin-top: -15px;
+}
+.mini-box{
+ /* width: 20%;
+ height:auto;
+ border: 1px solid grey;
+ position: fixed;
+ right: 1%; */
+ margin-top:3%; 
+ width: 20%;
+ height: 400px;
+ right: 0;
+ top: 20%;
+ position: fixed; 
+ padding-top: 2px;
+
+ 
+
+}
+
+.list-group-item{
+    margin-top:10px;
+}
+
+.box{
+    width: 74%;
+    height: auto;
+    /* border: 1px solid grey; */
+    /* margin-left:1%; */
+    
+    /* border: 1px solid black; */
+}
+
+
+
+
+.card{
+    margin-left:1%;
+}
+
+.card:hover{
+    background: rgb(240, 233, 233);
+    /* text-decoration: none; */
+    
+}
+.link-home{
+    color: black;
+}
+.link-home:hover{
+    text-decoration: none;
+}
+
+.link-list{
+    text-decoration: none;
+}
+
+
+
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 1%;
+    font-family: 'Crete Round', serif;
+    
+}
+.header h1{
+    font-size: 40px;
+}
+
+/* .icons{
+   position: relative;
+   left: 80%;
+   margin: 1% 10%;
+} */
+.icons{
+    position: relative;
+    float: left;
+    left: 80%;
+    top: 40px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.icons0{
+    position: relative;
+    float: left;
+    left: 83%;
+    top: 40px;
+    cursor: pointer;
+    transition: transform .2s;
+    
+}
+
+.icons1{
+    position: relative;
+    float: left;
+    left:86%;
+    top: 40px;
+    cursor: pointer;
+     transition: transform .2s;
+    
+}
+.icons :hover{
+color:black;
+width:10px;
+height: 20px;
+transform: scale(1.5)
+}
+
+.icons0:hover{
+    color:black;
+    width:10px;
+    height: 20px;
+    transform: scale(1.5)
+}
+
+.icons1:hover{
+    width:10px;
+    height: 20px;
+    color:black;
+    transform: scale(1.5)
+}
+
+@media only screen and (max-width:700px){
+  
+        
+    .navbar-toggler{
+        margin: 0% 45% 0% 45% ;
+    }
+
+    .mini-box{
+        display: none;
+    }
+    .card{
+        margin: 0;
+        width: 100%;
+        padding: 0% 1%;
+        
+    }
+    .box{
+        width: 95%;
+        margin: 0% 2%;
+    }
+    .card-img{
+        width: 90%;
+        margin: 0% 5%;
+    }
+    
+}
