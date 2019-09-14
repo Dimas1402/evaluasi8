@@ -34,10 +34,10 @@ class List extends React.Component {
       <>
         <div className="sticky-top">
           <div className="mini-box">
-            {data.map(list => (
+            {data.map((list, index) => (
               <div key={list.title}>
                 <ul class="list-group">
-                  <Link className="link-list" to={`/details/${list.title}`}>
+                  <Link className="link-list" to={`/details/${index + 1}`}>
                     <li
                       className="list-li"
                       // onClick={() => this.props.getData(data)}
